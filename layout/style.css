@@ -1,0 +1,161 @@
+body {
+	font-family: "Lucida grande", verdana, arial, courier;
+	font-size: 10pt;
+	color: #444;
+}
+
+#ui-datepicker-div {
+	border: 3px #777 solid;
+	padding: 0.4em;
+}
+
+/* Rubriker (Lägg till, Aktuellt...) */
+h1 a {
+	text-decoration: none;
+	color: #444;
+}
+h1 a:hover {
+	text-decoration: underline;
+}
+h1:first-letter {
+	text-transform: uppercase;
+}
+h2 {
+	color: #000;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.4em 0em;
+}
+/* Meny */
+#menu ul {
+	margin: 0;
+}
+#menu li {
+	list-style-type: none;
+	margin-left: 1em;
+	margin-bottom: 0.2em;
+}
+#menu a {
+	color: #444;
+	text-decoration: none;
+}
+#menu a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+/* Tabellrubriker (Pris, När, Var, Datum, Kommentar) */
+thead th {
+	font-size: 1.1em;
+	padding-right: 0;
+	border-bottom: 2px #777 solid;
+	text-align: left;
+	font-weight: normal;
+}
+.sortable thead th { /* make sortables table headers look like links */
+	color: #337F39;
+	text-decoration: none;
+	cursor: pointer;
+}
+.sortable thead th:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+/* Lägg till-rutan */
+#add td {
+	vertical-align: top;
+	padding: 0.4em;
+}
+#add input, #add textarea, #add button, #login input, #login button {
+	padding: 0.3em;
+	font-size: 1.1em;
+}
+#add button[type='submit'] {
+	margin: 0.4em;
+	padding: 0.2em 0.5em;
+	height: 2em;
+	width: 50%;
+}
+
+
+/* Data */
+tbody td {
+	padding: 0.2em 0.5em 0.2em 0;
+}
+tbody td.datum {
+  white-space: nowrap;
+}
+tbody td.category {
+
+}
+tbody td.comment {
+
+}
+tbody td.price {
+	text-align: right;
+	width: 70px;
+}
+tr.even {
+	background: #EDEDED;
+}
+tr.odd {
+	background: #FFF;
+}
+tr.current {
+	color: #539F59;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Summa-cellen */
+tfoot #summa {
+	text-align: right;
+	font-size: 1.2em;
+	padding: 0.2em 0 1em 0;
+	border-top: 1px #777 solid;
+}
+
+/* Statistik- och arkivlänkar */
+#archive a, .stats a {
+	text-decoration: none;
+	color: #337F39;
+	font-style: italic;
+}
+
+#archive a:hover, .stats a:hover {
+	color: #000;
+}
+
+/* Ikonerna */
+#icons img {
+	border:1px #FFF solid;
+}
+#icons img:hover {
+	border:1px #DDD solid;
+	background-color: #608d56;
+}
+
+/* Statistik */
+#stats th, #stats td {
+	text-align: right;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.summa td {
+	border-top: 1px #000 solid;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+.vertical_sum {
+	border-left: 1px #000 solid;
+}
+/* Loginrutan */
+#login {
+	border:1px #DDD solid; 
+	text-align:center;
+}

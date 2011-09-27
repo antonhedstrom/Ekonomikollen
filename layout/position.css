@@ -1,0 +1,54 @@
+body {
+	background: #E4FFE4;
+	background: url('gfx/stripes.png');
+}
+#head {
+	position: absolute;
+	left: 3em;
+	padding-bottom: 2em;
+	display: none;
+	min-width: 550px;
+}
+#frame {
+	border: 2px #000 solid;
+	background: #FFF;
+	clear: both;
+}
+#menu {
+	float: right;
+	text-align: right;
+}
+#add, #archive {
+	background: #f7f7f7;
+	position: relative;
+	border-top: 1px #B0B0B0 solid;
+	border-bottom: 1px #B0B0B0 solid;
+}
+#add_toggle, #archive_toggle {
+	padding: 0.5em;
+}
+#add_toggle:hover, #archive_toggle:hover {
+	background: #608d56;
+	cursor: pointer;
+}
+#add_form, #archive_display {
+	display: none;
+	padding: 0.5em;
+}
+#history {
+	position: relative;
+	padding: 0.5em;
+	/*border-right:1px #B0B0B0 solid;*/
+}
+#icons {
+	position: absolute;
+	right: 0.4em;
+	top: 0.4em;
+}
+#archive {
+	position: relative;
+}
+#login {
+	margin: 0;
+	padding: 8px; 
+}
